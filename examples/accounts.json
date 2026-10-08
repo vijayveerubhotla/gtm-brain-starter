@@ -1,0 +1,55 @@
+[
+  {
+    "domain": "strong-example.test",
+    "excluded": false,
+    "features": {
+      "business_model": {
+        "match": true,
+        "source": "Synthetic fixture",
+        "observed_at": "2026-10-08"
+      },
+      "size": {
+        "match": true,
+        "source": "Synthetic fixture",
+        "observed_at": "2026-10-08"
+      },
+      "systems": {
+        "match": true,
+        "source": "Synthetic fixture",
+        "observed_at": "2026-10-08"
+      },
+      "owner_capacity": {
+        "match": true,
+        "source": "Synthetic fixture",
+        "observed_at": "2026-10-08"
+      }
+    },
+    "signals": [
+      {
+        "name": "Illustrative relevant change",
+        "event_date": "2026-10-08",
+        "points": 20,
+        "confidence": 1,
+        "source": "Synthetic fixture"
+      }
+    ]
+  },
+  {
+    "domain": "unknown-example.test",
+    "excluded": false,
+    "features": {
+      "business_model": {
+        "match": true,
+        "source": "Synthetic fixture",
+        "observed_at": "2026-10-08"
+      }
+    },
+    "signals": []
+  },
+  {
+    "domain": "excluded-example.test",
+    "excluded": true,
+    "features": {},
+    "signals": []
+  }
+]

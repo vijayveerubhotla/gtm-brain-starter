@@ -1,0 +1,32 @@
+{
+  "evidence": "Illustrative, uncalibrated example model",
+  "fit_max": 70,
+  "signal_max": 30,
+  "criteria": {
+    "business_model": 20,
+    "size": 20,
+    "systems": 15,
+    "owner_capacity": 15
+  },
+  "signal_half_life_days": 30,
+  "signal_expiry_days": 180,
+  "tiers": [
+    {
+      "minimum": 80,
+      "label": "Priority review"
+    },
+    {
+      "minimum": 60,
+      "label": "Review"
+    },
+    {
+      "minimum": 40,
+      "label": "Watch"
+    },
+    {
+      "minimum": 0,
+      "label": "Research"
+    }
+  ],
+  "feature_max_age_days": 90
+}
