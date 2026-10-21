@@ -3,7 +3,7 @@ status: template
 tags: [gtm-brain-starter, public-template]
 ---
 
-# Example lane plugin
+# Example plugin
 
 Job: prepare a reviewed account-selection receipt from permitted company facts. This example plugin uses the same company context as any other lane.
 

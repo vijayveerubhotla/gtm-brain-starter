@@ -22,7 +22,7 @@ The output shows fit, decayed timing, missing evidence, exclusions and a reviewe
 
 ## Adapt the operating system
 
-Start with `CLAUDE.md` and fill the company context. Confirm the measurement definition and the owner of each decision. Keep facts, hypotheses and unknowns visible. Add one lane plugin for a defined job with a readable input/output contract, not a prompt that claims to run the entire GTM system.
+Start with `CLAUDE.md` and fill the company context. Confirm the measurement definition and the owner of each decision. Keep facts, hypotheses and unknowns visible. Add a plugin or skill for one defined job with a readable input/output contract, not a prompt that claims to run the entire GTM system.
 
 The skills are in `.claude/skills/`. They can also be placed in an agent's supported skills directory. Read each skill before using it. `icp-scoring` separates fit from timing; `signal-decay` validates event dates and expiry; `decision-review` turns observations into a bounded next decision.
 

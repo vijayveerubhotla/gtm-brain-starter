@@ -5,7 +5,7 @@ tags: [gtm-brain-starter, public-template]
 
 # Company GTM operating system
 
-Read this entry point before a GTM job. Confirm the company and the job's output. Use one company brain; lane plugins share the approved context.
+Read this entry point before a GTM job. Confirm the company and the job's output. Use one company brain; every plugin and skill reads the same approved context.
 
 Company context: `context/company.md`, `context/icp.md`, `context/personas.md`, `context/positioning.md` and `context/measurement.md`.
 
